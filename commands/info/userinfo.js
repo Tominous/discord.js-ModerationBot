@@ -32,7 +32,7 @@ module.exports = {
           "No Roles!",
         true
       )
-      .addField(`Avatar Url`, `[Link](${member.user.displayAvatarURL()})`, true)
+      .addField(`Avatar URL`, `[Link](${member.user.displayAvatarURL()})`, true)
       .addField("Joined Server At", member.joinedAt.toDateString())
       .addField("Joined Discord At", member.user.createdAt.toDateString())
       .setFooter(`Requested by ${message.author.username}`)
